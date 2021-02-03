@@ -1,0 +1,34 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+p {
+  font: 64px "Raleway";
+  color: aliceblue;
+  font-size: 64px;
+  margin: 0px;
+  /* padding: 20px; */
+  text-align: center;
+  /* border: 2px solid blue; */
+  /* width: width; */
+  /* width: calc(canvas.width - 48px); */
+}
+
+.red {
+  background-color: red;
+  color: white;
+}
+
+span {
+  background-color: red;
+  color: white;
+}
